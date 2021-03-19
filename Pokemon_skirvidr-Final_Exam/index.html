@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Pokemon Go Pokemon Information</title>
+    <link rel="stylesheet" href="css/Final_Exam.css">
+</head>
+<body class="bodyContainer">
+    <div class="pkmContainer">
+        <div class="pkmTitle">
+            <h1>Pokemon Go Pokemon Information</h1>
+        </div>
+        <div>
+            <h2>Pokemon Information</h2>
+        </div>
+        <div class="inputContainer">
+            <label for="pokemonName">Pokemon Name:</label>
+            <input type="text" name="pokemonName" id="pokemonName">
+            <a class="pNameBtn" id="pNameBtn">Enter</a><br>
+            <label for="inGame" id="inGameLabel">Available in game? </label>
+            <input type="text" name="inGame" id="inGame" disabled><br>
+            <label for="alolan" id="alolanLabel">Alolan available? </label>
+            <input type="text" name="alolan" id="alolan" disabled><br>
+            <label for="shiny" id="shinyLabel">Shiny available? </label>
+            <input type="text" name="shiny" id="shiny" disabled><br>
+            <label for="raid" id="raidLabel">Raid available? </label>
+            <input type="text" name="raid" id="raid" disabled><br>
+            <label for="nest" id="nestLabel">Does it nest? </label>
+            <input type="text" name="nest" id="nest" disabled><br>
+            <label for="ditto" id="dittoLabel">Can it be a Ditto? </label>
+            <input type="text" name="ditto" id="ditto" disabled><br>
+            <label for="candies" id="candiesLabel">Candies needed to evolve: </label>
+            <input type="text" name="candies" id="candies" disabled><br>
+            <label for="walkCandy" id="walkCandyLabel">Walking distance for candy: </label>
+            <input type="text" name="walkCandy" id="walkCandy" disabled><br>
+            <label for="baseStats" id="baseStatsLabel">Base Stats: </label>
+            <textarea name="baseStats" id="baseStats" disabled></textarea><br>
+            <label for="fastMoves" id="fastMovesLabel">Possible fast movesets </label>
+            <textarea name="fastMoves" id="fastMoves" disabled></textarea><br>
+            <label for="chargedMoves" id="chargedMovesLabel">Possible charged movesets </label>
+            <textarea name="chargedMoves" id="chargedMoves" disabled></textarea><br>
+            <p id="output"></p>
+        </div>
+    </div>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/Final_Exam.js"></script>
+    
+</body>
+</html>
